@@ -102,7 +102,7 @@ def create_fire_temp_rgb_video(data_dir, output_video_path, start_hour=00, end_h
         print("No se generaron suficientes fotogramas para crear un video.")
 
 # Directorio raíz de datos y salida del video
-data_dir = "/media/tatin/DiscoDuro/goes16_data/2024/245"
+data_dir = "goes16_data/2024/245"
 output_video_path = "fire_temp_rgb_animation.mp4"
 
 # Crear el video

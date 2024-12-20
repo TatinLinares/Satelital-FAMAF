@@ -83,7 +83,7 @@ def main():
     BASE_PREFIX = "ABI-L1b-RadF"
     #BANDS = ["C01", "C02", "C03"]  # Bandas a descargar
     BANDS = ["C05", "C06", "C07"]  # Bandas a descargar
-    OUTPUT_DIR = "/media/tatin/DiscoDuro/goes16_data"
+    OUTPUT_DIR = "goes16_data"
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     # Día actual en formato "YYYY/DDD" (donde DDD es el día del año)

@@ -101,7 +101,7 @@ def create_true_color_video(data_dir, output_video_path, start_hour=10, end_hour
         print("No se generaron suficientes fotogramas para crear un video.")
 
 # Directorio raíz de datos y salida del video
-data_dir = "/media/tatin/DiscoDuro/goes16_data/2024/245"
+data_dir = "goes16_data/2024/245"
 output_video_path = "true_color_animation.mp4"
 
 # Crear el video
